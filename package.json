@@ -1,0 +1,24 @@
+{
+  "name": "nodeclinet_fnal",
+  "version": "1.0.0",
+  "description": "node client for AI sadjad game :)",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amirbagh75/Sadjad-AI-jsClient"
+  },
+  "author": "Amir BGH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirbagh75/Sadjad-AI-jsClient/issues"
+  },
+  "homepage": "https://github.com/amirbagh75/Sadjad-AI-jsClient#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-emoji": "^1.5.1",
+    "socket.io-client": "^1.7.3"
+  }
+}
