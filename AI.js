@@ -1,3 +1,4 @@
+// version 0.0.1
 ///**********************************///
 // you should write your AI algorithm here in the turn() function !
 ///**********************************///

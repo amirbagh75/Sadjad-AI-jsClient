@@ -1,3 +1,4 @@
+// version 0.0.1
 const config = require('./config.json');
 const AI = require('./AI.js');
 const socket = require('socket.io-client')(config.HOST);
