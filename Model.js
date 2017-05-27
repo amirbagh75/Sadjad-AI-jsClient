@@ -4,9 +4,6 @@ class Model {
     random(min,max) {
       return (Math.floor(Math.random() * (max - min + 1)) + min);
     }
-    // findKopeh(map) {
-    //
-    // }
     board (map,i,j) {
       var board = JSON.parse(map);
       console.log(" " + emoji.get('information_source') + " Your selected Cell have this info : ");
