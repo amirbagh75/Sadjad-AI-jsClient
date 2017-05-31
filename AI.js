@@ -4,6 +4,7 @@
 ///**********************************///
 var Model = require('./Model.js');
 var emoji = require('node-emoji');
+// var sleep = require('sleep');
 
 class AI {
   turn(map,turn,score,goals){
@@ -17,6 +18,7 @@ class AI {
 
      Model.board(map,rand1,rand2);
      // you return your touch cell here . you should choose best home :/
+    //  sleep.sleep(2);
      return [rand1,rand2];
    }
 }

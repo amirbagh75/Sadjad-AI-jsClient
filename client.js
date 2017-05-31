@@ -5,7 +5,7 @@ const socket = require('socket.io-client')(config.HOST);
 console.log('game starting...');
 socket.on('connect', function() {
     console.log(' => [connected]');
-    socket.emit('init', config.TOKEN , function (){
+    socket.emit('init', config.TOKEN , config.MAP , function (){
 });
 
 socket.on('result', function(data) {
