@@ -1,6 +1,6 @@
 {
-    "HOST": "http://127.0.0.1:8888/game",
-    "TOKEN": 1010,
+    "HOST": "http://keeg.ir:8898/game",
+    "TOKEN": 94412132,
     "MAP" : "pacman.map",
-    "_comment" : "you can change it to one of these ['default.py','pacman.py','plus.map']"
+    "_comment" : "you can change it to one of these ['default.map','pacman.map','plus.map']"
 }
